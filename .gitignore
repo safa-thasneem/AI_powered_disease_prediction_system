@@ -1,0 +1,6 @@
+ 
+# Ignore the dataset folder
+dataset/
+
+# Ignore all .h5 files anywhere in the project
+*.h5

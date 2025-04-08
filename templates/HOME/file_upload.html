@@ -1,0 +1,86 @@
+{#{% extends 'HOME/indexsub.html' %}#}
+{#{% block body %}#}
+{#<div class="container mt-5">#}
+{#    <div class="row justify-content-center">#}
+{#        <div class="col-md-8">#}
+{#            <div class="card border-0 shadow-lg" style="background: #f8fbff;">#}
+{#                <div class="card-body text-center">#}
+{#                    <h3 class="text-primary" >Upload Medical Image</h3>#}
+{#                    <p class="text-muted">Detect cancer type and stage with AI analysis</p>#}
+{##}
+{#                    <form method="post" enctype="multipart/form-data" action="/image_post" class="mt-3" >#}
+{#                        <div class="mb-3">#}
+{#                            <input type="file" class="form-control" name="file" required>#}
+{#                        </div>#}
+{#                        <button type="submit" class="btn btn-primary px-4" required>Upload Image</button>#}
+{#                    </form>#}
+{##}
+{#                    <div class="mt-4">#}
+{#                        <h4 class="text-dark">Prediction is:</h4>#}
+{#                        <h5 class="text-danger">Cancer Type: {{ Mainclass }}</h5>#}
+{#                        <h5 class="text-warning">Stage: {{ Sub }}</h5>#}
+{#                        <h5 class="text-dark">{{ result }}</h5>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+{#</div>#}
+{#{% endblock %}#}
+{% extends 'HOME/indexsub.html' %}
+{% block body %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <!-- Upload Form Card -->
+            <div class="card border-0 shadow-lg" style="background: #f8fbff;">
+                <div class="card-body text-center">
+                    <h3 class="text-primary">Upload Medical Image</h3>
+                    <p class="text-muted">Detect cancer type and stage with AI analysis</p>
+
+                    <form method="post" enctype="multipart/form-data" action="/image_post" class="mt-3">
+                        {% csrf_token %}
+                        <div class="mb-3">
+                            <input type="file" class="form-control" name="file" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary px-4">Upload Image</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Result Section (Only visible if result exists) -->
+    {% if Mainclass or Sub or result %}
+    <div class="mt-4">
+    <!-- Enhanced Prediction Section -->
+    <div class="card p-4 shadow-sm border-0" style="background: #f9f9f9; border-left: 5px solid #007bff; border-radius: 12px;">
+        <h4 class="text-primary mb-3"><i class="bi bi-graph-up-arrow"></i> Prediction Results:</h4>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h5 class="text-danger">
+                    <i class="bi bi-bug-fill"></i> Cancer Type:
+                </h5>
+                <p class="fw-bold text-dark" style="font-size: 1.2rem;">{{ Mainclass }}</p>
+            </div>
+            <div class="col-12 col-md-6">
+                <h5 class="text-warning">
+                    <i class="bi bi-map-fill"></i> Stage:
+                </h5>
+                <p class="fw-bold text-dark" style="font-size: 1.2rem;">{{ Sub }}</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Redesigned Recommendation Section -->
+    <div class="recommendation-card mt-4 p-4 shadow-sm rounded" style="background-color: #e8f5e9; border-left: 5px solid #4caf50;">
+        <h5 class="text-success">
+            <i class="bi bi-lightbulb-fill"></i> Recommendation:
+        </h5>
+        <p class="text-dark fw-medium" style="font-size: 1.1rem;">{{ result }}</p>
+    </div>
+</div>
+
+    {% endif %}
+</div>
+{% endblock %}
