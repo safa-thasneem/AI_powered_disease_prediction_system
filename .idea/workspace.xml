@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d3565a0-0be3-4d9f-bc32-ae72a75c2ca1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MYAPP/newcnnlung.py" afterPath="$PROJECT_DIR$/MYAPP/newcnnlung.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/AI_DIESESE_PREDICTION$newcnnlung.coverage" NAME="newcnnlung Coverage Results" MODIFIED="1744812147118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MYAPP" />
+    <SUITE FILE_PATH="coverage/AI_DIESESE_PREDICTION$newcnnlung.coverage" NAME="newcnnlung Coverage Results" MODIFIED="1744814666294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MYAPP" />
     <SUITE FILE_PATH="coverage/AI_DIESESE_PREDICTION$newcnn.coverage" NAME="newcnn Coverage Results" MODIFIED="1739431727711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MYAPP" />
     <SUITE FILE_PATH="coverage/AI_DIESESE_PREDICTION$newcnnKidney.coverage" NAME="newcnnKidney Coverage Results" MODIFIED="1741267832227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MYAPP" />
     <SUITE FILE_PATH="coverage/AI_DIESESE_PREDICTION$predictMain.coverage" NAME="predictMain Coverage Results" MODIFIED="1742460974451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MYAPP" />
@@ -63,8 +63,8 @@
       <file leaf-file-name="newcnnlung.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MYAPP/newcnnlung.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="284">
+              <caret line="149" column="44" lean-forward="true" selection-start-line="149" selection-start-column="44" selection-end-line="149" selection-end-column="44" />
               <folding>
                 <element signature="e#26#35#0" expanded="true" />
               </folding>
@@ -160,7 +160,6 @@
         <option value="$PROJECT_DIR$/MYAPP/newcnn.py" />
         <option value="$PROJECT_DIR$/MYAPP/newcnnbreast.py" />
         <option value="$PROJECT_DIR$/MYAPP/migrations/newcnncolon.py" />
-        <option value="$PROJECT_DIR$/MYAPP/newcnnlung.py" />
         <option value="$PROJECT_DIR$/templates/file_upload.html" />
         <option value="$PROJECT_DIR$/MYAPP/predictMain.py" />
         <option value="$PROJECT_DIR$/templates/HOME/file_upload.html" />
@@ -177,6 +176,7 @@
         <option value="$PROJECT_DIR$/MYAPP/newcnnMain.py" />
         <option value="$PROJECT_DIR$/MYAPP/plot" />
         <option value="$PROJECT_DIR$/MYAPP/plot.py" />
+        <option value="$PROJECT_DIR$/MYAPP/newcnnlung.py" />
       </list>
     </option>
   </component>
@@ -1067,8 +1067,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MYAPP/newcnnlung.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="284">
+          <caret line="149" column="44" lean-forward="true" selection-start-line="149" selection-start-column="44" selection-end-line="149" selection-end-column="44" />
           <folding>
             <element signature="e#26#35#0" expanded="true" />
           </folding>
