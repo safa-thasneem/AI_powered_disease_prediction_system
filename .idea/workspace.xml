@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6d3565a0-0be3-4d9f-bc32-ae72a75c2ca1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MYAPP/newcnncolon.py" afterPath="$PROJECT_DIR$/MYAPP/newcnncolon.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MYAPP/newcnnKidney.py" afterPath="$PROJECT_DIR$/MYAPP/newcnnKidney.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,8 +54,8 @@
       <file leaf-file-name="newcnnKidney.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MYAPP/newcnnKidney.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+            <state relative-caret-position="368">
+              <caret line="153" column="2" lean-forward="false" selection-start-line="153" selection-start-column="2" selection-end-line="153" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -157,7 +157,6 @@
         <option value="$PROJECT_DIR$/AI_DIESESE_PREDICTION/settings.py" />
         <option value="$PROJECT_DIR$/AI_DIESESE_PREDICTION/urls.py" />
         <option value="$PROJECT_DIR$/MYAPP/newcnnBreast.py" />
-        <option value="$PROJECT_DIR$/MYAPP/newcnnKidney.py" />
         <option value="$PROJECT_DIR$/MYAPP/newcnn.py" />
         <option value="$PROJECT_DIR$/MYAPP/newcnnbreast.py" />
         <option value="$PROJECT_DIR$/MYAPP/migrations/newcnncolon.py" />
@@ -178,6 +177,7 @@
         <option value="$PROJECT_DIR$/MYAPP/plot.py" />
         <option value="$PROJECT_DIR$/MYAPP/newcnnlung.py" />
         <option value="$PROJECT_DIR$/MYAPP/newcnncolon.py" />
+        <option value="$PROJECT_DIR$/MYAPP/newcnnKidney.py" />
       </list>
     </option>
   </component>
@@ -1090,8 +1090,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MYAPP/newcnnKidney.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        <state relative-caret-position="368">
+          <caret line="153" column="2" lean-forward="false" selection-start-line="153" selection-start-column="2" selection-end-line="153" selection-end-column="2" />
           <folding />
         </state>
       </provider>
