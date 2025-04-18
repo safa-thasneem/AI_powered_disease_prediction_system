@@ -151,4 +151,3 @@ from sklearn.metrics import confusion_matrix
 yp=model.predict_classes(x_test,verbose=0)
 cf=confusion_matrix(y_test,yp)
 print(cf)
-nn
